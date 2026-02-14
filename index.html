@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #2a1a1a;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #f5e6d3;
+            border: 15px solid #8b0000;
+            border-radius: 8px;
+            padding: 60px 50px;
+            max-width: 700px;
+            width: 100%;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+
+        .heart-decoration {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 60px;
+        }
+
+        .circle {
+            width: 10px;
+            height: 10px;
+            border: 2px solid #8b0000;
+            border-radius: 50%;
+        }
+
+        .heart {
+            color: #8b0000;
+            font-size: 32px;
+        }
+
+        .letter {
+            color: #8b0000;
+            font-size: 24px;
+            font-weight: bold;
+            font-family: Georgia, serif;
+        }
+
+        .message {
+            font-family: 'Brush Script MT', cursive, Georgia, serif;
+            font-size: 36px;
+            line-height: 1.6;
+            color: #3a3a3a;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .signature {
+            font-family: 'Brush Script MT', cursive, Georgia, serif;
+            font-size: 40px;
+            color: #3a3a3a;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                padding: 40px 30px;
+            }
+
+            .message {
+                font-size: 28px;
+            }
+
+            .signature {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="heart-decoration">
+            <span class="circle"></span>
+           <span class="circle"></span>
+            <span class="heart">❤</span>
+           <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+        <p class="message">
+            Happy 28th Monthsary baby! I hope you like my gift. Alam mo ba na miss na miss na kita ahahshahsa. Thank you for another month, for being with me, and encouraging me. 
+            I know na minsan hindi kita nagbibigyan ng enough time kasi dahil na din sa schools works. But always remember that I love you so much. 
+        </p>
+        
+        <p class="signature">Geoffrey</p>
+    </div>
+</body>
+</html>
